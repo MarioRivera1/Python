@@ -30,9 +30,9 @@ elif vc <= 150:
 else:
     desc = 0
 print()
-fdesc = (vc - desc)*cant  #Prefio final con descuento
+fdesc = vc - desc   #Prefio final con descuento
 
-print("Subtotal: ", vc* cant)
+print("Subtotal: ", vc)
 print(f"Descuento: {desc}")
 print(f"Total: {fdesc}")
 
